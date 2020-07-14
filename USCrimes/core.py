@@ -15,7 +15,7 @@ def searchCrime(keyword):
     search_total = 0
 
     for crime in USCrimeList:
-        if keyword in crime:
+        if keyword.lower() in crime.lower():
             search_list.append(crime)
             search_total += 1
 
