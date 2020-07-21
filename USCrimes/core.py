@@ -22,4 +22,4 @@ def searchCrime(keyword):
     if total > 0:
         return search_list[random.randint(0, search_total - 1)]
 
-    return "No crime found containing this specific keyword!"
+    return 1
